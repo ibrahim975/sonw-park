@@ -1,0 +1,364 @@
+/*google font muli + catamaran here*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+/*other font
+    font-family: 'Catamaran', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+*/
+/*=========
+global css
+===========*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Mulish', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Catamaran', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.btn-check:focus + .btn,
+ .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+/*=========
+header css
+===========*/
+header{
+	background-image: url(../img/header-bgl.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sticky{
+	position: fixed;
+	width: 100%;
+	background-color:rgba(50,95,150,.8);
+}
+.navbar{
+	padding: 20px 0 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin: 0 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+/*============
+banner-section
+============*/
+.banner-section{
+	padding: 180px 0;
+}
+ .row{
+	--bs-gutter-x: 0;
+}
+
+.banner-section p {
+    padding-top: 180px;
+    color: #fefefe;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 65px;
+}
+.booking-btn {
+    background-color: #ff690f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+/*============
+offer-section
+============*/
+.offer-section{
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+.offer-heading{
+	padding: 20px 0 30px;
+}
+.offer-heading h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+}
+.offer-heading p{
+	text-align: center;
+	padding: 15px 135px;
+	color: #818181;
+}
+.offer-item{
+	text-align: center;
+}
+.offer-item img{
+	display: block;
+	margin: 0 auto;
+}
+.offer-item p{
+    font-size: 13px;
+    color: #818181;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+.offer-item h4{
+    font-weight: 900;
+    padding: 13px 60px;
+}
+.offer-btn {
+    background: #ff660d;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+/*============
+image-section
+============*/
+.image-section{
+
+}
+.image-section .row{
+	--bs-gutter-x: 0;
+}
+/*============
+crew-section
+============*/
+.crew-section{
+	background-color: #f7f7f7;
+	padding: 80px 0;
+}
+.crew-heading{
+	padding: 20px 0 30px;
+}
+.crew-heading h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+}
+.crew-item{
+	text-align: center;
+}
+.crew-item img{
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+}
+.crew-item p{
+    font-size: 13px;
+    color: #818181;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+.crew-item h4{
+    font-weight: 700;
+    padding: 13px 0;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+/*===============
+mountain-section
+================*/
+.mountain-section{
+	background-image: url(../img/kubba-bg.png);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+}
+.mountain-section h1{
+	font-size: 50px;
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+.mountain-section p{
+    color: #818181;
+    font-size: 14px;
+    color: #272727;
+}
+/*mountain-score*/
+.mountain-score h2{
+	font-size: 55px;
+	font-weight: 900;
+	color: #ff660d;
+	padding-top: 40px;
+	margin-bottom: 0;
+}
+.mountain-score p{
+	color: #272727;
+	font-weight: 700;
+	font-size: 13px;
+}
+/*===============
+testimonial-section
+================*/
+.testimonial-section{
+	padding: 100px 0;
+	background-color: #f7f7f7;
+}
+.testimonial-section h1{
+	font-size: 50px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	text-align: center;
+}
+/*test-one*/
+.test-one{
+	text-align: center;
+}
+.test-one h5{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+}
+.test-one p{
+	text-align: center;
+    color: #818181;
+    font-size: 14px;
+    color: #272727;
+    padding: 20px 240px;
+    color: #5e5e5e;
+}
+/*========
+footer css
+==========*/
+footer{
+	background-color: #2f2f2f;
+}
+footer h1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+.footer-pp{
+	padding: 60px 0 60px 90px;
+}
+.footer-address{
+	padding: 25px 0;
+}
+.footer-address ul li a{
+	color: #adadad;
+	font-size: 15px;
+	display: flex;
+}
+.footer-address ul li a .fa{
+	width: 40px;
+	height: 40px ;
+	line-height: 20px;
+	text-align: center;
+	color: #fc6400;
+}
+.footer-social ul li{
+	display: inline;
+}
+.footer-social ul li a .fa{
+	font-size: 32px;
+	color: #adadad;
+	margin-right: 30px;
+}
+@media screen and (max-width: 570px){
+	.banner-section {
+	    padding: 0 25px;
+	}
+	.banner-section p {
+	    padding-top: 50px;
+	    padding-right: 170px;
+	}
+	.offer-section {
+	    padding: 50px 0;
+	}
+	.offer-heading h1 {
+	    font-size: 36px;
+	}
+	.offer-heading p {
+	    padding: 15px 55px;
+	}
+	.offer-item p {
+	    padding-top: 20px;;
+	}
+	.offer-btn {
+	    padding: 7px 10px;
+	}
+	.offer-item {
+	    margin-bottom: 50px;
+	}
+	.crew-section {
+	    padding: 50px 0;
+	}
+	.crew-heading h1 {
+	    font-size: 36px;
+	}
+	.crew-item p {
+	    padding-top: 10px;
+	}
+	.crew-item h4 {
+	    padding: 5px 0;
+	}
+	.crew-item {
+	    margin-bottom: 40px;
+	}
+	.mountain-section {
+	    padding: 50px 0;
+	}
+	.mountain-section h1 {
+	    font-size: 36px;
+	    text-align: center;
+	    padding: 0 20px;
+	}
+	.mountain-section p {
+	    padding: 0 20px;
+	    text-align: center;
+	}
+	.mountain-score{
+		text-align: center;
+	}
+	.mountain-score h2 {
+	    font-size: 45px;
+	}
+	.testimonial-section {
+	    padding: 50px 0 20px;
+	}
+	.testimonial-section h1 {
+	    font-size: 36px;
+	}
+
+	.test-one p {
+	    padding: 20px 30px;
+	}
+	.footer-pp {
+	    padding: 50px 0 40px 40px;
+	}
+	footer h1 {
+	    font-size: 36px;
+	    padding-left: 13px;
+	}
+	.footer-address {
+	    padding: 0;
+	}
+	.footer-social{
+		padding-left: 15px;
+	}
+	footer iframe{
+		height: 250px;
+	}
+}
